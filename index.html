@@ -5,155 +5,167 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>codedamn Project</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <!-- start writing your code -->
-    <button class="mobile-nav-toggle"
-    aria-controls="nav--link" aria-expanded="false">
-      <span class="sr-only">menu</span>
-    </button>
-    <header class="header">
-      <h1 class="header--title">THIS IS MASSIVELY</h1>
-      <p class="header--paragraph">
-        A free,fully responsive html5 + css3 site template designed by @ajlkn
+    <header>
+      <h1 class="title">This is massively</h1>
+      <!-- <img src="#" class="bg-image" /> -->
+      <p class="heading-paragraph">
+        A free, fully responsive HTML5 + CSS3 site template designed by @ajlkn
         for html5 up and released for free under the creative commons license
       </p>
-      <a class="arrowdown" href="#"
-        ><i class="far fa-arrow-alt-circle-down fa-4x"></i
-      ></a>
+      <i class="fa-solid fa-circle-arrow-down"></i>
     </header>
-    <section>
-      <div class="section--nav__bar">
-        <ul id ="nav--link"  class="nav--link">
-          <li><a aria-hidden="true" class="nav--link-btn" href="#">This is massively</a></li>
-          <li><a aria-hidden="true" class="nav--link-btn" href="#">generic page</a></li>
-          <li><a aria-hidden="true" class="nav--link-btn" href="#">elements reference</a></li>
+
+    <main>
+      <nav>
+        <ul class="nav-links">
+          <i class="fa-solid fa-xmark"></i>
+          <li><a href="#">This is massively</a></li>
+          <li><a href="#">generic page</a></li>
+          <li><a href="#">element reference</a></li>
         </ul>
-        <ul class="nav--link-toggle">
-          <li class="nav--link__icons">
-            <a><i class="">facebook</i></a>
-          </li>
-          <li class="nav--link__icons">
-            <a><i class=""></i>twitter</a>
-          </li>
-          <li class="nav--link__icons">
-            <a><i class="">instagram</i></a>
-          </li>
-          <li class="nav--link__icons">
-            <a><i class="">github</i></a>
-          </li>
+        <ul class="social-icons">
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-github"></i>
         </ul>
-        <div class="bg-white-sec">
-        <p class="date">April 25, 2017</p>
-        <section class="mid--section">
-          <h1 class="mid--section__title">And this is a massive headline</h1>
-          <p class="mid--section__paragraph">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae
-            alias, voluptas est officiis itaque provident unde enim accusamus
-            saepe suscipit.
-          </p>
-          <img src="/assets/images/pic01.jpg" />
-          <button class="btn mid--section__btn">FULL STORY</button>
-        <div class="d-flex two--column">
+      </nav>
+
+      <p class="date">April 25,2017</p>
+      <section>
+        <h2 class="sub-title">And This is a massively headline</h2>
+        <p class="section-paragraph">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi
+          aliquam perspiciatis cum adipisci doloremque eaque quibusdam corrupti
+          quisquam ipsum laudantium.
+        </p>
+        <img src="/assets/images/pic01.jpg" class="section-img" />
+        <button class="section-btn btn">Full story</button>
+      </section>
+
+      <div class="cards-section">
+        <div class="cards-section-one">
           <div class="card">
-            <p class="card--date">April 24, 2017</p>
-            <p class="card--heading">Lorem ipsum dolor sit amet.</p>
-            <img src="/assets/images/pic02.jpg" />
-            <p class="card--para">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
-              exercitationem quibusdam magnam nisi dolorum expedita!
+            <p class="card-date">April 24,2017</p>
+            <h3 class="card-title">Lorem ipsum dolor sit amet.</h3>
+            <img class="card-img" src="/assets/images/pic02.jpg" />
+            <p class="card-paragraph">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea qui,
+              dicta excepturi ducimus nulla impedit cumque iure voluptatem esse
+              reiciendis.
             </p>
-            <button class="btn card--button">Full story</button>
           </div>
           <div class="card">
-            <p class="card--date">April 24, 2017</p>
-            <p class="card--heading">Lorem ipsum dolor sit amet.</p>
-            <img src="/assets/images/pic03.jpg" />
-            <p class="card--para">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
-              exercitationem quibusdam magnam nisi dolorum expedita!
+            <p class="card-date">April 22,2017</p>
+            <h3 class="card-title">Lorem ipsum dolor sit amet.</h3>
+            <img class="card-img" src="/assets/images/pic03.jpg" />
+            <p class="card-paragraph">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea qui,
+              dicta excepturi ducimus nulla impedit cumque iure voluptatem esse
+              reiciendis.
             </p>
-            <button class="btn card--button">Full story</button>
+          </div>
+        </div>
+
+        <div class="cards-section-two">
+          <div class="card">
+            <p class="card-date">April 18,2017</p>
+            <h3 class="card-title">Lorem ipsum dolor sit amet.</h3>
+            <img class="card-img" src="/assets/images/pic04.jpg" />
+            <p class="card-paragraph">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea qui,
+              dicta excepturi ducimus nulla impedit cumque iure voluptatem esse
+              reiciendis.
+            </p>
           </div>
           <div class="card">
-            <p class="card--date">April 24, 2017</p>
-            <p class="card--heading">Lorem ipsum dolor sit amet.</p>
-            <img src="/assets/images/pic04.jpg" />
-            <p class="card--para">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
-              exercitationem quibusdam magnam nisi dolorum expedita!
+            <p class="card-date">April 14,2017</p>
+            <h3 class="card-title">Lorem ipsum dolor sit amet.</h3>
+            <img class="card-img" src="/assets/images/pic05.jpg" />
+            <p class="card-paragraph">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea qui,
+              dicta excepturi ducimus nulla impedit cumque iure voluptatem esse
+              reiciendis.
             </p>
-            <button class="btn card--button">Full story</button>
+          </div>
+        </div>
+
+        <div class="cards-section-three">
+          <div class="card">
+            <p class="card-date">April 11,2017</p>
+            <h3 class="card-title">Lorem ipsum dolor sit amet.</h3>
+            <img class="card-img" src="/assets/images/pic06.jpg" />
+            <p class="card-paragraph">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea qui,
+              dicta excepturi ducimus nulla impedit cumque iure voluptatem esse
+              reiciendis.
+            </p>
           </div>
           <div class="card">
-            <p class="card--date">April 24, 2017</p>
-            <p class="card--heading">Lorem ipsum dolor sit amet.</p>
-            <img src="/assets/images/pic05.jpg" />
-            <p class="card--para">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
-              exercitationem quibusdam magnam nisi dolorum expedita!
+            <p class="card-date">April 7,2017</p>
+            <h3 class="card-title">Lorem ipsum dolor sit amet.</h3>
+            <img class="card-img" src="/assets/images/pic07.jpg" />
+            <p class="card-paragraph">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea qui,
+              dicta excepturi ducimus nulla impedit cumque iure voluptatem esse
+              reiciendis.
             </p>
-            <button class="btn card--button">Full story</button>
-          </div>
-          <div class="card">
-            <p class="card--date">April 24, 2017</p>
-            <p class="card--heading">Lorem ipsum dolor sit amet.</p>
-            <img src="/assets/images/pic06.jpg" />
-            <p class="card--para">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
-              exercitationem quibusdam magnam nisi dolorum expedita!
-            </p>
-            <button class="btn card--button">Full story</button>
-          </div>
-          <div class="card">
-            <p class="card--date">April 24, 2017</p>
-            <p class="card--heading">Lorem ipsum dolor sit amet.</p>
-            <img src="/assets/images/pic07.jpg" />
-            <p class="card--para">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
-              exercitationem quibusdam magnam nisi dolorum expedita!
-            </p>
-            <button class="btn card--button">Full story</button>
           </div>
         </div>
       </div>
-    </section>
-      <button class="next-button">next&nbsp; ></button>
+
       <div class="pagination">
-        <a class="pagination--link" href="#">1</a>
-        <a class="pagination--link" href="#">2</a>
-        <a class="pagination--link" href="#">3</a>
-        <a class="pagination--link" href="#"> </a>
-        <a class="pagination--link" href="#">8</a>
-        <a class="pagination--link" href="#">9</a>
-        <a class="pagination--link" href="#">10</a>
-        <a class="pagination--link" href="#">11</a>
+        <button class="pagination-btn">1</button>
+        <button class="pagination-btn">2</button>
+        <button class="pagination-btn">3</button>
+        <button class="pagination-btn">.</button>
+        <button class="pagination-btn">8</button>
+        <button class="pagination-btn">9</button>
+        <button class="pagination-btn">10</button>
+        <button class="pagination-btn">11</button>
+        <button class="pagination-btn">></button>
       </div>
-      <footer class="d-flex user--details">
-        <form>
-          <div class="column--left">
-            <label>Name</label>
-            <input type="text" />
-            <label>Email</label>
-            <input type="email" />
-            <label>Message</label>
-            <input type="text" width="30" height="30" />
-            <button class="btn column--left">Send Message</button>
-          </div>
-          <div class="column--right">
-            <p class="column-right-span"><span class="details-span">ADDRESS </span> 1234 somewhere road #24567 nashville, TN 00000-00000</p>
-            <p class="column-right-span"><span class="details-span"> PHONE </span>(0000)000-00000</p>
-            <p class="column-right-span"><span class="details-span"> EMAIL</span> info@untitled.tld </p>
-            <span> SOCIAL </span>
-          </div>
-          </v>
-        </form>
-      </footer>  
-    </section>
-    <span>©untitled</span>
-    <span>Design:HTMLS UP </span>
-    <span>DEMO IMAGES: UNSPLASH</span>
+    </main>
+
+    <footer>
+      <form class="footer-form">
+        <div class="user-details">
+          <label>Name</label>
+          <input type="text" />
+          <label>Email</label>
+          <input type="email" />
+          <label>message</label>
+          <input type="text" />
+          <button class="footer-btn btn">send message</button>
+        </div>
+
+        <div class="address">
+          <label>address</label>
+          <input type="text" />
+          <label>phone</label>
+          <input type="number" />
+          <label>Email</label>
+          <input type="email" />
+        </div>
+      </form>
+      <div class="footer-icons">
+        <label>social</label>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-github"></i>
+      </div>
+    </footer>
   </body>
-</div>
 </html>
