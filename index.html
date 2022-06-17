@@ -12,6 +12,13 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Oswald&family=Poppins:wght@200&display=swap"
+      rel="stylesheet"
+    />
+
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -53,7 +60,7 @@
           quisquam ipsum laudantium.
         </p>
         <img src="/assets/images/pic01.jpg" class="section-img" />
-        <button class="section-btn btn">Full story</button>
+        <button class="primary-btn">Full story</button>
       </section>
 
       <div class="cards-section">
@@ -67,6 +74,7 @@
               dicta excepturi ducimus nulla impedit cumque iure voluptatem esse
               reiciendis.
             </p>
+            <button class="section-btn btn">Full story</button>
           </div>
           <div class="card">
             <p class="card-date">April 22,2017</p>
@@ -77,10 +85,11 @@
               dicta excepturi ducimus nulla impedit cumque iure voluptatem esse
               reiciendis.
             </p>
+            <button class="section-btn btn">Full story</button>
           </div>
         </div>
 
-        <div class="cards-section-two">
+        <div class="cards-section-one">
           <div class="card">
             <p class="card-date">April 18,2017</p>
             <h3 class="card-title">Lorem ipsum dolor sit amet.</h3>
@@ -90,6 +99,7 @@
               dicta excepturi ducimus nulla impedit cumque iure voluptatem esse
               reiciendis.
             </p>
+            <button class="card-btn btn">Full story</button>
           </div>
           <div class="card">
             <p class="card-date">April 14,2017</p>
@@ -100,10 +110,11 @@
               dicta excepturi ducimus nulla impedit cumque iure voluptatem esse
               reiciendis.
             </p>
+            <button class="card-btn btn">Full story</button>
           </div>
         </div>
 
-        <div class="cards-section-three">
+        <div class="cards-section-one">
           <div class="card">
             <p class="card-date">April 11,2017</p>
             <h3 class="card-title">Lorem ipsum dolor sit amet.</h3>
@@ -113,6 +124,7 @@
               dicta excepturi ducimus nulla impedit cumque iure voluptatem esse
               reiciendis.
             </p>
+            <button class="card-btn btn">Full story</button>
           </div>
           <div class="card">
             <p class="card-date">April 7,2017</p>
@@ -123,6 +135,7 @@
               dicta excepturi ducimus nulla impedit cumque iure voluptatem esse
               reiciendis.
             </p>
+            <button class="card-btn btn">Full story</button>
           </div>
         </div>
       </div>
@@ -131,12 +144,12 @@
         <button class="pagination-btn">1</button>
         <button class="pagination-btn">2</button>
         <button class="pagination-btn">3</button>
-        <button class="pagination-btn">.</button>
+        <button class="pagination-btn">...</button>
         <button class="pagination-btn">8</button>
         <button class="pagination-btn">9</button>
         <button class="pagination-btn">10</button>
         <button class="pagination-btn">11</button>
-        <button class="pagination-btn">></button>
+        <button class="next">NEXT ></button>
       </div>
     </main>
 
@@ -149,24 +162,33 @@
           <input type="email" />
           <label>message</label>
           <input type="text" />
-          <button class="footer-btn btn">send message</button>
+          <button class="footer-btn">send message</button>
         </div>
 
         <div class="address">
-          <label>address</label>
-          <input type="text" />
-          <label>phone</label>
-          <input type="number" />
-          <label>Email</label>
-          <input type="email" />
+            <label>address</label
+            ><span class="footer-span"
+              >1234 somewhere road #87257 nashville, TN 000000-00000</span
+            >
+            <label>phone</label><span class="footer-span">(000)000-000</span>
+            <input type="number" />
+            <label>Email</label
+            ><span class="footer-span">info@untitled.tld</span>
+            <input type="email" />
+          </div>
+          <div class="footer-icons">
+            <label>social</label>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-github"></i>
+          </div>
         </div>
       </form>
-      <div class="footer-icons">
-        <label>social</label>
-        <i class="fa-brands fa-twitter"></i>
-        <i class="fa-brands fa-facebook"></i>
-        <i class="fa-brands fa-instagram"></i>
-        <i class="fa-brands fa-github"></i>
+      <div class="last-section">
+        <p>© untitled</p>
+        <p>design:html5 up</p>
+        <p>demo image: unsplash</p>
       </div>
     </footer>
   </body>
